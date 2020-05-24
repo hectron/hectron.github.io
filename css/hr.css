@@ -1,8 +1,9 @@
 ::selection {background: #000;color: #FFF;text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);}
 *{text-rendering: optimizeLegibility;-webkit-font-smoothing:antialiased;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 html,body{overflow:hidden;margin:0;padding:0;height:100%}
-body{font-family: "FF Tisa Web Pro";font-size:22px;color:#333332;background:#fff}
-header{text-transform:uppercase;font:800 64px /64px "Freight Sans Pro";display: inline-block;position: relative;}
+body{font-family: "Merriweather", sans-serif;font-size:20px;color:#333332;background:#fff}
+header{text-;font:800 64px /64px "Montserrat";display: inline-block;position: relative;}
+nav {width:99%,padding-top:10px}
 nav ul{display:block;margin:0;padding:0;list-style-type:none}
 nav ul li{display:inline-block}
 nav ul li:after{content:" · ";opacity:.2}
@@ -34,8 +35,5 @@ div{width:690px;height:170px;position:absolute;left:50%;top:50%;margin-left:-325
 /*
  * Effects
  */
-div{
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
+div{opacity: 0;transition: opacity 0.3s ease;}
 .view div{ opacity: 1; }
